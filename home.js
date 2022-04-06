@@ -1,6 +1,6 @@
-let price = 100;
-if (price >= 10) {
+
+if (1 !== '1') {
     showMessage('Price');
-} else if (price <= 20) {
+} else {
     showMessage('Priceless');
 }
