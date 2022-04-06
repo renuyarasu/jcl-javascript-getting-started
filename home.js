@@ -1,8 +1,11 @@
-// Function: Function Return Values
+// Function: Function Scope
+// showMessage('Message')
+
+let key = 100;
 
 function message(value) {
-    let code = value * 100;
-    showMessage(code)
-    // return code
+    let code = value * key;
+    return code
 }
-console.log(message(2));
+console.log(message(key)); // 10000
+console.log(message(5)); // 500
