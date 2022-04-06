@@ -1,9 +1,3 @@
-let price = '0';
-
-if(price){
+if (+(1.1 + 1.3).toFixed(2) === 2.4) {
     showMessage('Price');
 }
-
-
-// falsy: false | 0 | '' or' (emppty string) | null | undefined | NaN
-// truthy: Everything NOT falsy | true | 0.5 | '0'
