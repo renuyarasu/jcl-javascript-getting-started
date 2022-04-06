@@ -1,5 +1,7 @@
-// Looping with for()
+// Looping with while()
 
-for (let i = 0; i < 5; i++) {
+let i = 5;
+while (i > 0) {
     console.log(i);
+    i--;
 }
