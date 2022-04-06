@@ -239,3 +239,5 @@ footer .crf-footer--copyright {text-align: center; font-size: 12px; flex: 0 0 75
     .crf-full-banner {order: 5; margin-top: 0;}
     footer {order: 7;}
 }
+
+.crf-hero h2, .crf-hero p.lead{display: none;}
