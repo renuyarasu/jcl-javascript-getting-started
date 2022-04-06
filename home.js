@@ -1,6 +1,5 @@
+let message = 'VedaGna';
 
 
-let price = 10 - 2 + (10 + 2) / 10;
-
-
-showMessage(price); // 9.2
+// showMessage(message.toUpperCase());
+showMessage(message.length);
