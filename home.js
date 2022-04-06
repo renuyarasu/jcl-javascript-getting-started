@@ -1,5 +1,7 @@
-let message = 'VedaGna';
+/* let message = 123;
+message = message.toString();
+showMessage( typeof message ); // String */
 
 
-// showMessage(message.toUpperCase());
-showMessage(message.length);
+let message = Number.parseFloat('123');
+showMessage( typeof message ); //Number
