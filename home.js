@@ -1,6 +1,6 @@
-let price = 10.2;
 
-price = price%2;
 
-// showMessage( typeof price);
-showMessage( price);
+let price = 10 - 2 + (10 + 2) / 10;
+
+
+showMessage(price); // 9.2
