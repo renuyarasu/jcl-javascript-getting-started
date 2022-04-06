@@ -1,9 +1,8 @@
-// The Ternary Operator
-// (condition) ? true - statement : false - statement;
-
-let price = 100;
-// (price >= 20) ? showMessage('Price') : showMessage('Priceless');
-// price >= 20 ? showMessage('Price') : showMessage('Priceless');
-
-const message = price >= 20 ? 'Price' : 'Priceless';
-showMessage(message)
+// Block Scope Using var, let and const
+if (true) {
+    const mess = 'Hey!'
+    showMessage(mess)
+}
+console.log(mess); // var: Hey!
+console.log(mess); // let: Uncaught ReferenceError: mess is not defined
+console.log(mess); // const: Uncaught ReferenceError: mess is not defined
