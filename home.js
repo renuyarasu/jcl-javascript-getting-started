@@ -1,8 +1,8 @@
-// Function: Passing Information to Functions
+// Function: Function Return Values
 
-
-let message = function (firstName, lastName) {
-    showMessage(firstName + ' ' + lastName);
+function message(value) {
+    let code = value * 100;
+    showMessage(code)
+    // return code
 }
-
-message('VedaGna', 'Yarasu');
+console.log(message(2));
