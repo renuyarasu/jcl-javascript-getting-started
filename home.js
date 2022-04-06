@@ -4,8 +4,16 @@
 let key = 100;
 
 function message(value) {
-    let code = value * key;
+    let keyGenerator = function () {
+        let key = 10;
+        console.log('Key Generator: ', key);
+        return key;
+    }
+    let code = value * keyGenerator();
+    showMessage(code);
+    console.log('Code Generator: ', key);
     return code
 }
-console.log(message(key)); // 10000
-console.log(message(5)); // 500
+let getMessage = message(100);
+
+console.log(getMessage);
