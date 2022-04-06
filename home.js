@@ -1,2 +1,6 @@
+let price = 10.2;
 
-showMessage('help');
+price = price%2;
+
+// showMessage( typeof price);
+showMessage( price);
