@@ -1,2 +1,2 @@
-
-showMessage('help');
+let message = 'Welcome VedaGna'
+showMessage(message);
