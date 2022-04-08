@@ -1,3 +1,5 @@
 const values = ['a', 'b', 'c', 'd', 'e'];
-values.splice(2, 1, 'faa');
-showMessage(values); // a,b
+let result = values.indexOf('c');
+
+showMessage(result); 
+console.log(values.indexOf('c'));
