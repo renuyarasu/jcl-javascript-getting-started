@@ -1,4 +1,3 @@
-const values = ['a', 'b', 'c', 'd', 'e'];
-values.forEach(function(item){
-    console.log(item);
-})
+let containers = document.getElementsByClassName('container');
+containers[6].classList.add('d-none');
+console.log(containers);
