@@ -1,2 +1,4 @@
+const values = ['a', 'b', 'c'];
+values.push('d');
 
-showMessage('help');
+showMessage(values); // a,b,c,d
