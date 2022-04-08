@@ -1,8 +1,6 @@
-const values = ['a', 'b', 'c', 'd', 'e'];
+const values = ['a', 'b', 'hello', 'c', 'd', 'e'];
 
-const set = values.filter(function(item){
-    console.log('Item: ', item);
-    return item > 'b'
-})
-
-console.log(set);
+const found = values.find(function (item) {
+    return item.length > 1
+});
+console.log(found); // hello
