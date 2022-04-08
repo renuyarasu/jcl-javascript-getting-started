@@ -1,3 +1,5 @@
-let header =  document.getElementById('message');
-header.style.backgroundColor = 'indigo';
-header.style.color = 'white';
+const btnReview = document.getElementById('btnReview');
+btnReview.addEventListener('click', function(){
+    alert('message');
+})
+
