@@ -1,4 +1,4 @@
 const values = ['a', 'b', 'c'];
-values.shift();
+values.unshift('x','y','z');
 
 showMessage(values); // a,b
