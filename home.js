@@ -1,4 +1,4 @@
 const values = ['a', 'b', 'c'];
-values.pop();
+values.shift();
 
 showMessage(values); // a,b
