@@ -1,4 +1,4 @@
 const values = ['a', 'b', 'c'];
-values.unshift('x','y','z');
+let newValues = values.slice(1, 2);
 
-showMessage(values); // a,b
+showMessage(newValues); // a,b
