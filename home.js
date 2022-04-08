@@ -1,11 +1,23 @@
+/* let message = 'Hello!';
+function changeMess(message) {
+    message = 'Hi!'
+} 
+showMessage(message)
+*/
+
 
 let person = {
     name: 'VedaGna',
     age: 5,
     school: false,
-    info: function(){
 
-        showMessage(this.name+ ' is ' +this.age+ ' yrs old.');
-    }    
 }
-person.info()
+
+
+function increamentAge(person) {
+    person.age++
+}
+increamentAge(person);
+
+
+showMessage(person.age)
