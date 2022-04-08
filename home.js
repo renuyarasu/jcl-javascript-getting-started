@@ -1,15 +1,11 @@
-/* let productID = 12345;
-function product() {
-    console.log(productID);
-}
-product(); */
-
-const app = {
-    productID: 12345,
-    username: 'VedaGna',
-    order: true,
-}
 function showProductID() {
-    console.log(app.productID);
+    let productID = 12345;
+    function fix() {
+        let productID = 67890;
+        console.log('Fix product Id: ', productID);
+    }
+    fix();
+    console.log('Show Product Id: ', productID);
 }
-showProductID()
+showProductID();
+
