@@ -1,12 +1,11 @@
-let mySymbol = Symbol();
 
 let person = {
     name: 'VedaGna',
     age: 5,
     school: false,
-    [mySymbol]: 'secretInfo'
-}
-person['country'] = 'India';
-person.school=true;
+    info: function(){
 
-showMessage(person.country);
+        showMessage(this.name+ ' is ' +this.age+ ' yrs old.');
+    }    
+}
+person.info()
