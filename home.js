@@ -1,5 +1,8 @@
 const values = ['a', 'b', 'c', 'd', 'e'];
-let result = values.indexOf('c');
 
-showMessage(result); 
-console.log(values.indexOf('c'));
+const set = values.filter(function(item){
+    console.log('Item: ', item);
+    return item > 'b'
+})
+
+console.log(set);
